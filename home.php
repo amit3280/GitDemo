@@ -3,10 +3,14 @@
 <body>
  
 <?php  
-$num=100;   
-$string="print $num";  
-echo "$string <br/>";  
-?>
+for ($i = 0; $i <= 10; $i++) {
+echo "The number is: $i <br>";
+	if ($i =="5") 
+	{
+		break;
+	}	
+}
+?>  
  
 </body>
 </html>
